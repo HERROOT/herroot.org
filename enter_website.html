@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>HerRoot | Thai Grassroot Women Archive</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Noto+Serif+Thai&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Serif Thai', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f8f4;
+      color: #1d6d34;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1d6d34;
+      padding: 12px 30px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 48px;
+      margin-right: 16px;
+    }
+
+    .navbar .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar .menu a {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      text-decoration: none;
+      color: #f5f5f5;
+      transition: color 0.2s;
+    }
+
+    .navbar .menu a:hover {
+      color: #ffffff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background-color: #ffffff;
+    }
+
+    .hero h1 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #1d6d34;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.9;
+      max-width: 720px;
+      margin: 0 auto;
+      color: #333;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #1d6d34;
+      border-left: 6px solid #1d6d34;
+      padding-left: 12px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #1d6d34;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #1d6d34;
+      color: white;
+    }
+
+    .cta h2 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #1d6d34;
+      font-family: 'IBM Plex Mono', monospace;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    .cta a:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- แถบเมนู -->
+  <div class="navbar">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="HerRoot Logo">Thai Grassroot Women Archive
+    </a>
+    <div class="menu">
+      <a href="enter_website.html">Home</a>
+      <a href="grievance_document.html">Our Archives</a>
+      <a href="about_us.html">About Us</a>
+      <a href="supportus.html">Support Us</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to HerRoot</h1>
+    <p>เราคือพื้นที่จดจำและสร้างเสียงให้กับผู้หญิงรากหญ้า ผ่านการเก็บรักษาเรื่องราว เอกสาร และความทรงจำ ที่มักถูกลืมจากประวัติศาสตร์กระแสหลัก</p>
+  </div>
+
+  <!-- บทความ -->
+  <div class="section">
+    <h2>บทความล่าสุด</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>เขียนประวัติศาสตร์จากข้างล่าง</h3>
+        <p>สำรวจแนวคิดการเขียนประวัติศาสตร์จากมุมมองของผู้หญิงในชนบท ที่ไม่ได้อยู่ในหอจดหมายเหตุทางการ</p>
+      </div>
+      <div class="card">
+        <h3>บันทึกของพรเพ็ญ: การเขียนเป็นการต่อต้าน</h3>
+        <p>วิเคราะห์สมุดบันทึกของพรเพ็ญ เหมือนศรี ที่ใช้การเขียนเพื่อรักษาอำนาจของตัวเองในการต่อสู้กับรัฐ</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- งานและกิจกรรม -->
+  <div class="section">
+    <h2>งานและกิจกรรม</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>เวิร์กช็อป: บันทึกความทรงจำสตรีรากหญ้า</h3>
+        <p>กิจกรรมอบรมการเก็บบันทึกด้วยแนวสตรีนิยมเชิงวิพากษ์ ณ จังหวัดร้อยเอ็ด</p>
+      </div>
+      <div class="card">
+        <h3>นิทรรศการ: “เรื่องเล่าที่ไม่ได้บันทึก”</h3>
+        <p>จัดแสดงภาพถ่าย เอกสาร และบันทึกของผู้หญิงนักเคลื่อนไหวท้องถิ่น ที่มักไม่ปรากฏในตำรา</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="cta">
+    <h2>ร่วมสนับสนุน HerRoot</h2>
+    <p>เรากำลังรวบรวมทุนเพื่อพัฒนาเว็บไซต์และเปิดให้เข้าถึงจดหมายเหตุออนไลน์</p>
+    <a href="supportus.html">สนับสนุนเรา</a>
+  </div>
+
+</body>
+</html>
